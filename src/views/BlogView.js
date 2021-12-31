@@ -55,7 +55,13 @@ class BlogView extends React.Component {
 
   render() {
     const proxies = BlogView.Controller !== BlogView ? transformProxies(this.props.children) : {
-
+      'navigation': [],
+      'nav-home': [],
+      'navi-about': [],
+      'blog': [],
+      'contact': [],
+      'playlist': [],
+      'btn-medium': [],
     }
 
     return (
@@ -67,23 +73,23 @@ class BlogView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body-blog">
-            <div data-collapse="medium" data-animation="default" data-duration={400} data-easing="ease" data-easing2="ease" role="banner" className="af-class-navigation w-nav">
+            {map(proxies['navigation'], props => <div data-collapse="medium" data-animation="default" data-duration={400} data-easing="ease" data-easing2="ease" role="banner" {...{...props, className: `af-class-navigation w-nav ${props.className || ''}`}}>{createScope(props.children, proxies => <React.Fragment>
               <div className="af-class-navigation-items">
                 <a href="index.html" className="af-class-logo-link w-nav-brand">
                   <div className="af-class-logo">arie.dev</div>
                 </a>
                 <div className="af-class-navigation-wrap">
                   <nav role="navigation" className="af-class-navigation-items w-nav-menu">
-                    <a href="index.html" className="af-class-navigation-item w-nav-link">Home</a>
-                    <a href="about.html" className="af-class-navigation-item w-nav-link">Whois</a>
-                    <a href="blog.html" aria-current="page" className="af-class-navigation-item w-nav-link w--current">Blog</a>
-                    <a href="contact.html" className="af-class-navigation-item w-nav-link">Contact</a>
-                    <a href="playlist.html" className="af-class-navigation-item w-nav-link">Playlist</a>
+                    {map(proxies['nav-home'], props => <a href="index.html" {...{...props, className: `af-class-navigation-item w-nav-link ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>Home</React.Fragment>}</a>)}
+                    {map(proxies['navi-about'], props => <a href="about.html" {...{...props, className: `af-class-navigation-item w-nav-link ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>Whois</React.Fragment>}</a>)}
+                    {map(proxies['blog'], props => <a href="blog.html" aria-current="page" {...{...props, className: `af-class-navigation-item w-nav-link w--current ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>Blog</React.Fragment>}</a>)}
+                    {map(proxies['contact'], props => <a href="contact.html" {...{...props, className: `af-class-navigation-item w-nav-link ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>Contact</React.Fragment>}</a>)}
+                    {map(proxies['playlist'], props => <a href="playlist.html" {...{...props, className: `af-class-navigation-item w-nav-link ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>Playlist</React.Fragment>}</a>)}
                   </nav>
                   <div className="af-class-menu-button w-nav-button"><img width={22} src="images/menu-icon_1menu-icon.png" alt className="af-class-menu-icon" /></div>
                 </div>
               </div>
-            </div>
+            </React.Fragment>)}</div>)}
             <div className="af-class-section-blog">
               <div className="af-class-blog-header">
                 <div className="af-class-heading-title">Writing is a fundamental human skills</div>
@@ -91,7 +97,7 @@ class BlogView extends React.Component {
               </div>
               <div className="af-class-blog-intro-container">
                 <h1 className="af-class-heading"><em className="af-class-italic-text">Sharing</em> Writing is <em className="af-class-italic-text-2">s</em>caring</h1>
-                <div className="af-class-text-block-11">Arie writes about tech or non-tech-related things on his <strong className="af-class-bold-text-6">medium</strong> in English and Bahasa Indonesia.<br />‍<br />Below are some of the highlighted articles.</div>
+                <div className="af-class-text-block-11">Arie writes about tech or non-tech-related things on his {map(proxies['btn-medium'], props => <strong {...{...props, className: `af-class-bold-text-6 ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>medium</React.Fragment>}</strong>)} in English and Bahasa Indonesia.<br />‍<br />Below are some of the highlighted articles.</div>
               </div>
               <div className="w-layout-grid af-class-blog-embeded-articles">
                 <div className="af-class-html-embed-6 w-embed w-iframe w-script">
