@@ -1637,7 +1637,7 @@
 .af-view .af-class-lottie-home {
   position: fixed;
   z-index: 9999999;
-  display: block;
+  display: none;
   width: 100%;
   height: 100%;
   padding: 10%;
@@ -1647,7 +1647,7 @@
 .af-view .af-class-lottie-about {
   position: fixed;
   z-index: 999999;
-  display: block;
+  display: none;
   width: 100%;
   height: 100%;
   padding: 10%;
@@ -1657,6 +1657,7 @@
 .af-view .af-class-lottie-blog {
   position: fixed;
   z-index: 999999;
+  display: none;
   width: 100%;
   height: 100%;
   padding: 10%;
@@ -1666,6 +1667,7 @@
 .af-view .af-class-lottie-contact {
   position: fixed;
   z-index: 99999;
+  display: none;
   width: 100%;
   height: 100%;
   padding: 10%;
@@ -1675,6 +1677,7 @@
 .af-view .af-class-lottie-playlist {
   position: fixed;
   z-index: 999999;
+  display: none;
   width: 100%;
   height: 100%;
   padding: 10%;

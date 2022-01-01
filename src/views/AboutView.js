@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
-import NavigationView from './NavigationView'
+import NavView from './NavView'
 
 const scripts = [
   { loading: fetch("https://cdn.iframe.ly/embed.js").then(body => body.text()), isAsync: true },
@@ -71,7 +71,7 @@ class AboutView extends React.Component {
         <span className="af-view">
           <div className="af-class-body-about">
             <div data-w-id="1a6f11e5-7aaa-0a2a-c8e0-fecb2f7da226" data-animation-type="lottie" data-src="documents/line-drawing-tree-loading.json" data-loop={1} data-direction={1} data-autoplay={1} data-is-ix2-target={0} data-renderer="svg" data-default-duration={4} data-duration="1.5" className="af-class-lottie-about" />
-            <NavigationView.Controller />
+            <NavView.Controller />
             <div className="af-class-about-content">
               <div className="af-class-section-about af-class-wf-section">
                 <h1 className="af-class-label-about-heading">Arie (He/Him/His)</h1>
@@ -94,7 +94,7 @@ class AboutView extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="af-class-text-closing">That's it, he has nothing more to offer at this point (maybe there is more below)</div><img src="images/brush_question_1.png" loading="lazy" sizes="(max-width: 991px) 80vw, 52vw" srcSet="images/brush_question_1-p-500.png 500w, images/brush_question_1-p-800.png 800w, images/brush_question_1.png 818w" alt="img-illustration-3" className="af-class-img-illustration-3" />
+                <div className="af-class-text-closing">That's it, he has nothing more to offer at this point (maybe there is more below)</div><img src="images/brush_question_1.png" loading="lazy" sizes="(max-width: 991px) 64vw, 42vw" srcSet="images/brush_question_1-p-500.png 500w, images/brush_question_1-p-800.png 800w, images/brush_question_1.png 818w" alt="img-illustration-3" className="af-class-img-illustration-3" />
                 <div className="af-class-text-closing">Now what? interested to work with him? hit the contact tab above to get the handler!</div>
                 <div className="af-class-label-heading">These might be not related to work though</div>
                 <div className="af-class-label-subheding">Audius</div>

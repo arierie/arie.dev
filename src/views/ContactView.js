@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
-import NavigationView from './NavigationView'
+import NavView from './NavView'
 
 const scripts = [
   { loading: fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61610c6cd4489c18909a6b26").then(body => body.text()), isAsync: false },
@@ -67,7 +67,7 @@ class ContactView extends React.Component {
         <span className="af-view">
           <div className="af-class-body-contact">
             <div data-w-id="365f567f-7631-d96d-1a13-2253834849a2" data-animation-type="lottie" data-src="documents/line-drawing-tree-loading.json" data-loop={1} data-direction={1} data-autoplay={1} data-is-ix2-target={0} data-renderer="svg" data-default-duration={4} data-duration="1.5" className="af-class-lottie-contact" />
-            <NavigationView.Controller />
+            <NavView.Controller />
             <div className="af-class-section-contract af-class-wf-section">
               <h1 className="af-class-heading-contact">Get in touch</h1>
               <div className="af-class-intro-contact">Do you want to review his profile first?<a href="https://www.linkedin.com/in/arieridwan/">https://www.linkedin.com/in/arieridwan/</a>Or<br />Do you want to make an appointment?<a href="https://calendly.com/arieridwan">https://calendly.com/arieridwan</a>

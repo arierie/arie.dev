@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
-import NavigationView from './NavigationView'
+import NavView from './NavView'
 
 const scripts = [
   { loading: fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61610c6cd4489c18909a6b26").then(body => body.text()), isAsync: false },
@@ -67,7 +67,7 @@ class PlaylistView extends React.Component {
         <span className="af-view">
           <div className="af-class-body-playlist">
             <div data-w-id="b4d22e33-025f-73b8-3aea-4a393177614f" data-animation-type="lottie" data-src="documents/line-drawing-tree-loading.json" data-loop={1} data-direction={1} data-autoplay={1} data-is-ix2-target={0} data-renderer="svg" data-default-duration={4} data-duration="1.5" className="af-class-lottie-playlist" />
-            <NavigationView.Controller />
+            <NavView.Controller />
             <div className="af-class-section-playlist af-class-wf-section">
               <h1 className="af-class-heading-playlist">Youre the lucky one</h1>
               <div className="af-class-text-playlist-desc">If you happen to be here, he's gonna give you links to some mixtapes. There you can find curated music from multiple genres.</div>

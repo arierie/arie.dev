@@ -1,10 +1,10 @@
 /* eslint-disable */
 
-export { default as NavigationView } from './NavigationView'
-export { default as NavigationView } from './NavigationView'
-export { default as NavigationView } from './NavigationView'
-export { default as NavigationView } from './NavigationView'
-export { default as NavigationView } from './NavigationView'
+export { default as NavView } from './NavView'
+export { default as NavView } from './NavView'
+export { default as NavView } from './NavView'
+export { default as NavView } from './NavView'
+export { default as NavView } from './NavView'
 export { default as UnauthorizedView } from './UnauthorizedView'
 export { default as NotFoundView } from './NotFoundView'
 export { default as AboutView } from './AboutView'
