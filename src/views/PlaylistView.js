@@ -66,6 +66,7 @@ class PlaylistView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body-playlist">
+            <div data-w-id="b4d22e33-025f-73b8-3aea-4a393177614f" data-animation-type="lottie" data-src="documents/line-drawing-tree-loading.json" data-loop={1} data-direction={1} data-autoplay={1} data-is-ix2-target={0} data-renderer="svg" data-default-duration={4} data-duration="1.5" className="af-class-lottie-playlist" />
             <NavigationView.Controller />
             <div className="af-class-section-playlist af-class-wf-section">
               <h1 className="af-class-heading-playlist">Youre the lucky one</h1>

@@ -50,6 +50,7 @@ class NavigationView extends React.Component {
 
   render() {
     const proxies = NavigationView.Controller !== NavigationView ? transformProxies(this.props.children) : {
+      'logo': [],
       'nav-home': [],
       'nav-about': [],
       'nav-blog': [],
@@ -67,9 +68,9 @@ class NavigationView extends React.Component {
         <span className="af-view">
           <div data-collapse="medium" data-animation="default" data-duration={400} data-easing="ease" data-easing2="ease" role="banner" className="af-class-navigation w-nav">
             <div className="af-class-navigation-items">
-              <a href="index.html" className="af-class-logo-link w-nav-brand">
+              {map(proxies['logo'], props => <a href="index.html" {...{...props, className: `af-class-logo-link w-nav-brand ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>
                 <div className="af-class-logo">arie.dev</div>
-              </a>
+              </React.Fragment>}</a>)}
               <div className="af-class-navigation-wrap">
                 <nav role="navigation" className="af-class-navigation-items w-nav-menu">
                   {map(proxies['nav-home'], props => <a href="index.html" {...{...props, className: `af-class-navigation-item w-nav-link ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>Home</React.Fragment>}</a>)}
@@ -89,5 +90,7 @@ class NavigationView extends React.Component {
 }
 
 export default NavigationView
+
+/* eslint-enable */gationView
 
 /* eslint-enable */

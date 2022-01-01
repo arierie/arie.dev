@@ -68,6 +68,7 @@ class BlogView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body-blog">
+            <div data-w-id="37795ad9-141f-f794-afd6-cf379c5c99bf" data-animation-type="lottie" data-src="documents/line-drawing-tree-loading.json" data-loop={1} data-direction={1} data-autoplay={1} data-is-ix2-target={0} data-renderer="svg" data-default-duration={4} data-duration="1.5" className="af-class-lottie-blog" />
             <NavigationView.Controller />
             <div className="af-class-section-blog">
               <div className="af-class-blog-header">
@@ -96,7 +97,7 @@ class BlogView extends React.Component {
               </div>
               <div className="af-class-blog-closing-container w-clearfix">
                 <div className="af-class-text-blog-closing-title">Congratulation sailor, you made it here</div>
-                <div className="af-class-text-blog-closing-desc">Arie is not a good writer, but he's trying to become one. Hope you get motivated as well to start writing!</div><img src="images/human_ok.png" loading="lazy" sizes="(max-width: 479px) 75vw, (max-width: 767px) 77vw, (max-width: 991px) 80vw, 52vw" srcSet="images/human_ok.png 500w, images/human_ok.png 800w, images/human_ok.png 977w" alt="illustration-blog" className="af-class-image-5" />
+                <div className="af-class-text-blog-closing-desc">Arie is not a good writer, but he's trying to become one. Hope you get motivated as well to start writing!</div><img src="images/human_ok.png" loading="lazy" sizes="(max-width: 479px) 75vw, (max-width: 767px) 77vw, (max-width: 991px) 80vw, 52vw" srcSet="images/human_ok-p-500.png 500w, images/human_ok-p-800.png 800w, images/human_ok.png 977w" alt="illustration-blog" className="af-class-image-5" />
               </div>
             </div>
             {/* [if lte IE 9]><![endif] */}

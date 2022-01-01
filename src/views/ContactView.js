@@ -66,12 +66,13 @@ class ContactView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body-contact">
+            <div data-w-id="365f567f-7631-d96d-1a13-2253834849a2" data-animation-type="lottie" data-src="documents/line-drawing-tree-loading.json" data-loop={1} data-direction={1} data-autoplay={1} data-is-ix2-target={0} data-renderer="svg" data-default-duration={4} data-duration="1.5" className="af-class-lottie-contact" />
             <NavigationView.Controller />
             <div className="af-class-section-contract af-class-wf-section">
               <h1 className="af-class-heading-contact">Get in touch</h1>
               <div className="af-class-intro-contact">Do you want to review his profile first?<a href="https://www.linkedin.com/in/arieridwan/">https://www.linkedin.com/in/arieridwan/</a>Or<br />Do you want to make an appointment?<a href="https://calendly.com/arieridwan">https://calendly.com/arieridwan</a>
               </div>
-              <div className="af-class-div-block-3"><img src="images/img_band.png" loading="lazy" sizes="25vw" srcSet="images/img_band-p-500.png 500w, images/img_band.png 637w" alt="illustration-contact" className="af-class-image-6" /></div>
+              <div className="af-class-div-block-3"><img src="images/img_band.png" loading="lazy" sizes="52vw" srcSet="images/img_band-p-500.png 500w, images/img_band.png 637w" alt="illustration-contact" className="af-class-image-6" /></div>
               <div className="af-class-text-block-12">What about social media?</div>
               <div className="af-class-text-block-13">Well, call him old school, but apparently, he just deactivated his social media few months back. Reason? he said, he just wanted to take a break (could be very-very long). But, since our generation can't leave without it, so he made a new one just for exploring his interest (music, film, NFT, etc).</div>
             </div>
