@@ -91,6 +91,4 @@ class NavView extends React.Component {
 
 export default NavView
 
-/* eslint-enable */lt NavView
-
 /* eslint-enable */
