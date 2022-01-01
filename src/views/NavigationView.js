@@ -90,6 +90,4 @@ class NavigationView extends React.Component {
 
 export default NavigationView
 
-/* eslint-enable */gationView
-
 /* eslint-enable */

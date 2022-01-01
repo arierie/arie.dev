@@ -1,5 +1,4 @@
 import './App.css';
-import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./controllers/IndexController";
 import About from "./controllers/AboutController";
@@ -11,9 +10,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}>
+        <Route path="/">
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="blog" element={<Blog />} />
           <Route path="contact" element={<Contact />} />
           <Route path="playlist" element={<Playlist />} />
         </Route>
