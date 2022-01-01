@@ -66,7 +66,6 @@ class ContactView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body-contact">
-            <div data-w-id="365f567f-7631-d96d-1a13-2253834849a2" data-animation-type="lottie" data-src="documents/line-drawing-tree-loading.json" data-loop={1} data-direction={1} data-autoplay={1} data-is-ix2-target={0} data-renderer="svg" data-default-duration={4} data-duration="1.5" className="af-class-lottie-contact" />
             <NavView.Controller />
             <div className="af-class-section-contract af-class-wf-section">
               <h1 className="af-class-heading-contact">Get in touch</h1>

@@ -70,7 +70,6 @@ class AboutView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body-about">
-            <div data-w-id="1a6f11e5-7aaa-0a2a-c8e0-fecb2f7da226" data-animation-type="lottie" data-src="documents/line-drawing-tree-loading.json" data-loop={1} data-direction={1} data-autoplay={1} data-is-ix2-target={0} data-renderer="svg" data-default-duration={4} data-duration="1.5" className="af-class-lottie-about" />
             <NavView.Controller />
             <div className="af-class-about-content">
               <div className="af-class-section-about af-class-wf-section">

@@ -68,7 +68,6 @@ class BlogView extends React.Component {
         ` }} />
         <span className="af-view">
           <div className="af-class-body-blog">
-            <div data-w-id="37795ad9-141f-f794-afd6-cf379c5c99bf" data-animation-type="lottie" data-src="documents/line-drawing-tree-loading.json" data-loop={1} data-direction={1} data-autoplay={1} data-is-ix2-target={0} data-renderer="svg" data-default-duration={4} data-duration="1.5" className="af-class-lottie-blog" />
             <NavView.Controller />
             <div className="af-class-section-blog">
               <div className="af-class-blog-header">

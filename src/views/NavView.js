@@ -68,15 +68,15 @@ class NavView extends React.Component {
         <span className="af-view">
           <div data-collapse="medium" data-animation="default" data-duration={400} data-easing="ease" data-easing2="ease" role="banner" className="af-class-navigation w-nav">
             <div className="af-class-navigation-items">
-              {map(proxies['nav-logo'], props => <a href="index.html" aria-current="page" {...{...props, className: `af-class-logo-link w-nav-brand w--current ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>
+              {map(proxies['nav-logo'], props => <a href="index.html" {...{...props, className: `af-class-logo-link w-nav-brand ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>
                 <div className="af-class-logo">arie.dev</div>
               </React.Fragment>}</a>)}
               <div className="af-class-navigation-wrap">
                 <nav role="navigation" className="af-class-navigation-items w-nav-menu">
-                  {map(proxies['nav-home'], props => <a href="index.html" aria-current="page" {...{...props, className: `af-class-navigation-item w-nav-link w--current ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>Home</React.Fragment>}</a>)}
+                  {map(proxies['nav-home'], props => <a href="index.html" {...{...props, className: `af-class-navigation-item w-nav-link ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>Home</React.Fragment>}</a>)}
                   {map(proxies['nav-about'], props => <a href="about.html" {...{...props, className: `af-class-navigation-item w-nav-link ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>Whois</React.Fragment>}</a>)}
                   {map(proxies['nav-blog'], props => <a href="blog.html" {...{...props, className: `af-class-navigation-item w-nav-link ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>Blog</React.Fragment>}</a>)}
-                  {map(proxies['nav-contact'], props => <a href="contact.html" {...{...props, className: `af-class-navigation-item w-nav-link ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>Contact</React.Fragment>}</a>)}
+                  {map(proxies['nav-contact'], props => <a href="contact.html" aria-current="page" {...{...props, className: `af-class-navigation-item w-nav-link w--current ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>Contact</React.Fragment>}</a>)}
                   {map(proxies['nav-playlist'], props => <a href="playlist.html" {...{...props, className: `af-class-navigation-item w-nav-link ${props.className || ''}`}}>{props.children ? props.children : <React.Fragment>Playlist</React.Fragment>}</a>)}
                 </nav>
                 <div className="af-class-menu-button w-nav-button"><img width={22} src="images/menu-icon_1menu-icon.png" alt className="af-class-menu-icon" /></div>
