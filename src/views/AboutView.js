@@ -81,7 +81,7 @@ class AboutView extends React.Component {
                 <div className="af-class-html-embed-2 w-embed w-iframe w-script">
                   <div className="af-class-iframely-embed">
                     <div className="af-class-iframely-responsive" style={{height: 140, paddingBottom: 0}}>
-                      <a href="https://github.com/arierie" data-iframely-url="//cdn.iframe.ly/rsOFlR4" />
+                      <a href="https://github.com/ordonnarie" data-iframely-url="//iframely.net/TsZIV09" />
                     </div>
                   </div>
                 </div>
@@ -92,29 +92,6 @@ class AboutView extends React.Component {
                       <a href="https://dribbble.com/arieridwan" data-iframely-url="//cdn.iframe.ly/TL3HI4P?card=small" />
                     </div>
                   </div>
-                </div>
-                <div className="af-class-text-closing">That's it, he has nothing more to offer at this point (maybe there is more below)</div><img src="images/brush_question_1.png" loading="lazy" sizes="(max-width: 991px) 64vw, 42vw" srcSet="images/brush_question_1-p-500.png 500w, images/brush_question_1-p-800.png 800w, images/brush_question_1.png 818w" alt="img-illustration-3" className="af-class-img-illustration-3" />
-                <div className="af-class-text-closing">Now what? interested to work with him? hit the contact tab above to get the handler!</div>
-                <div className="af-class-label-heading">These might be not related to work though</div>
-                <div className="af-class-label-subheding">Audius</div>
-                <div className="af-class-html-embed-5 w-embed w-iframe w-script">
-                  <div className="af-class-iframely-embed">
-                    <div className="af-class-iframely-responsive" style={{height: 140, paddingBottom: 0}}>
-                      <a href="https://audius.co/oordinarie" data-iframely-url="//cdn.iframe.ly/QqaGhm4" />
-                    </div>
-                  </div>
-                </div>
-                <div className="af-class-label-subheding">TikTok</div>
-                <div className="af-class-html-embed-4 w-embed w-iframe w-script">
-                  <div className="af-class-iframely-embed">
-                    <div className="af-class-iframely-responsive" style={{height: 140, paddingBottom: 0}}>
-                      <a href="https://www.tiktok.com/@oordinarie" data-iframely-url="//cdn.iframe.ly/9BOXPBZ" />
-                    </div>
-                  </div>
-                </div>
-                <div className="af-class-label-subheding">SoundCloud</div>
-                <div className="af-class-html-embed-3 w-embed w-iframe">
-                  <div style={{left: 0, width: '100%', height: 300, position: 'relative'}}><iframe src="https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F862010296&show_artwork=true&show_comments=false" style={{top: 0, left: 0, width: '100%', height: '100%', position: 'absolute', border: 0}} allowFullScreen allow="encrypted-media;" /></div>
                 </div>
               </div>
             </div>
